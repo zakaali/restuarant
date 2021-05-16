@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-size: 62.5%;
+    --primary: #0ca00c;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3.6rem;
+}
+
+li,
+button,
+label,
+input,
+p {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 4.8rem;
+}
+h3 {
+    font-size: 3rem;
+}
+
+h4,h5 {
+    font-size: 2.8rem;
+}
+a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+
+.main-head {
+    background-color: var(--primary);
+    box-shadow: 0px 10px 10px rgba(0, 253, 63, 0.2);
+    width: auto;
+    color: white;
+    top: 0px;
+    position: sticky;
+    z-index: 3;
+
+}
+
+nav {
+    min-height: 10rem;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* padding: 2rem; */
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 40rem;
+    padding: 0rem 2rem;
+}
+
+#logo {
+    flex: 1 1 40rem;
+    cursor: pointer;
+    font-family: 'Pattaya', sans-serif;
+}
+
+
+.hero {
+    background-image:linear-gradient(rgba(67, 129, 52, 0.5), transparent), url('/img/background-vegetable.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.hero h2 {
+    color: white;
+}
+
+.hero button {
+    padding: 2rem 5rem;
+    background-color: var(--primary);
+    border: none;
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    cursor: pointer;
+    animation: btn 1s ease-in-out infinite;
+    margin-top: 5rem;
+}
+.hero button:hover {
+    background-color: rgb(77, 148, 63);
+    color: black;
+
+}
+
+
+.details {
+   width: 90%;
+   margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    align-items: center;
+  
+  
+}
+.detail {
+    text-align: center;
+    flex: 1 1 25rem;
+    min-height: 100vh;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1),0px 20px 20px rgba(0, 0, 0, 0.1) ;
+    flex-wrap: wrap;
+}
+.details img {
+   width: 50%;
+   height: 50%;
+   align-items: center;
+   border-radius: 50%;
+
+}
+
+.detail h2 {
+    background-color: var(--primary);
+    color: white;
+    margin: 3rem 0rem;
+}
+.detail p {
+    font-size: 3rem;
+    text-align: left;
+    padding: 7rem;
+    
+}
+.links {
+    color: rgb(42, 45, 218);
+    display: flex;
+    padding: 2rem 2rem 5rem 7rem;
+    
+    
+
+
+}
+
+
+.feature {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 6rem;
+}
+.feature-image {
+    text-align: center;
+    flex: 1 1 25rem;
+    min-height: 40vh;
+    margin: 2rem 5rem;
+    object-fit: cover;
+    
+    
+    
+}
+.feature-image img {
+    width: 100%;
+    border-radius: 50%;
+    padding: 5rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1),0px 20px 20px rgba(0, 0, 0, 0.1) ;
+   
+   
+}
+.feature-head {
+    width: 15%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10rem;
+
+
+    
+    
+}
+
+
+.feature-head h3{
+    
+
+    font-size: 5rem;
+    padding: 2rem 15rem;
+    border-radius: 5px;
+    /* background-color: var(--primary); */
+    cursor: pointer;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0px 10px 10px hsla(115, 94%, 54%, 0.5), 0px 20px 20px rgba(27, 228, 9, 0.1)
+    
+}
+
+
+.contact {
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), transparent), url('/img/fruit\ vegetables.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-wrapper {
+    background-color: #131c27cc;
+    width: 60%;
+    color: white;
+    border-radius: 5rem;
+}
+
+
+.form-wrapper {
+    width: 60%;
+    background-color: #0ca00c;
+    opacity: 0.8;
+}
+.contact-us h3 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.form-name,
+.form-email,
+.form-phone {
+    padding: 2rem;
+    
+}
+label {
+    font-size: 3rem;
+}
+
+input {
+    padding: 1rem;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.form-wrapper button {
+    width: 100%;
+    margin-top: 8rem;
+    padding: 2rem 10rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    font-size: 5rem;
+    font-weight: bold;
+   
+}
+
+
+
+footer {
+    background-color: var(--primary);
+    color: white;
+   
+}
+.footer-wrapper {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 4rem;
+   
+}
+.footer-wrapper h3 {
+    flex: 1 1 40rem;
+}
+.footer-wrapper ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
